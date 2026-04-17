@@ -9,7 +9,7 @@ export async function createUser(req,res){
 
     try{
     
-    const passwordHash =bcrypt.hashSync(req.body.password,10)
+    const passwordH ash =bcrypt.hashSync(req.body.password,10)
     
     
 
